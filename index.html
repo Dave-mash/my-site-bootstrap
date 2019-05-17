@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>David Macharia</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="home_container full_page">
+        <!-- introduction -->
+
+        <div class="video_background h-100">
+            <video src="../media/binary.mp4" autoplay='true' loop='true'></video>
+        </div>
+        <div class="overlay_div h-100"></div>
+
+        <div class="home_container_wrapped" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+            <h1 id="main_title">Hello!</h1>
+            <p id="intro_paragraph">Welcome to my site. My name is David Macharia Mwangi,<br><br> I am a full stack
+            <span style="color: rgb(73, 160, 247);">Web Developer</span></p>
+            <a id="bouncing-arrow" href="#about"><i class="fas fa-angle-double-down bounce" style="font-size:30px;"></i></a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">David M. Mwangi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="spacing"></div>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="about" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="about_container full_page">
+        <!-- about section -->
+        <div class="center-block">
+            <h1 id='about_page'>ABOUT ME</h1>
+        </div>
+        <div class="about_container_wrapped">
+            <img src="../media/dave.jpg" alt="selfie" id="selfie">
+            <p id="about_paragraph">I'm a self-taught, full-stack Web Developer based in Nairobi, Kenya. Knowledge acquired through immense research and a bit of mentorship. Self motivation and dedication have been my biggest strength throught my career. I'm currently working with Python and front-end Javascript. I mostly work by myself , however, I'm more than capable of teamwork and collaborating remotely. Contact me through email or slack for business or more information</p>
+        </div>
+        <div class="skills_wrapped">
+            <div class="html bar">
+                <div class="bar_text">HTML</div>
+                <div class="bar_level" style="width:70%;background:rgb(26, 122, 122);"></div>
+                <i style="width:10%;opacity:.7;">90%</i>
+            </div>
+            <div class="css bar">
+                <div class="bar_text">CSS</div>
+                <div class="bar_level" style="width:70%;background:rgb(26, 122, 122);"></div>
+                <i style="width:10%;opacity:.7;">90%</i>
+            </div>
+            <div class="responsive bar">
+                <div class="bar_text">Responsive Design</div>
+                <div class="bar_level" style="width:70%;background:rgb(26, 122, 122);"></div>
+                <i style="width:10%;opacity:.7;">90%</i>
+            </div>
+            <div class="javascript bar">
+                <div class="bar_text">Javascript</div>
+                <div class="bar_level" style="width:65%;background:rgb(26, 122, 122);"></div>
+                <i style="width:15%;opacity:.7;">80%</i>
+            </div>
+            <div class="react bar">
+                <div class="bar_text">ReactJS</div>
+                <div class="bar_level" style="width:65%;background:rgb(26, 122, 122);"></div>
+                <i style="width:15%;opacity:.7;">80%</i>
+            </div>
+            <div class="python bar">
+                <div class="bar_text">Python</div>
+                <div class="bar_level" style="width:65%;background:rgb(26, 122, 122);"></div>
+                <i style="width:15%;opacity:.7;">80%</i>
+            </div>
+            <div class="flask bar">
+                <div class="bar_text">Flask</div>
+                <div class="bar_level" style="width:63%;background:rgb(26, 122, 122);"></div>
+                <i style="width:18%;opacity:.7;">75%</i>
+            </div>
+            <div class="version_control bar">
+                <div class="bar_text">Postgresql</div>
+                <div class="bar_level" style="width:65%;background:rgb(26, 122, 122);"></div>
+                <i style="width:15%;opacity:.7;">80%</i>
+            </div>
+            <div class="postgres bar">
+                <div class="bar_text">Version control</div>
+                <div class="bar_level" style="width:70%;background:rgb(26, 122, 122);"></div>
+                <i style="width:10%;opacity:.7;">90%</i>
+            </div>
+        </div>
+    </div>
+    <div class="projects_container full_page">
+        <h1 id="project_title">PROJECTS</h1>
+        <!-- portfolio projects -->
+        <div class="project_div">
+            <img id='left_arrow' src="../media/left-arrow.png" onclick="plusSlides(-1)" alt="left arrow">
+            <div class="sliders">
+                <div class="slider_container hidden">
+                    <div class="project_spanshot">
+                        <div class="img_slider">
+                            <div class="next_prev">
+                                <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
+                                <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                            </div>
+                            <video src="../media/binary.mp4" autoplay='true' loop='true'></video>
+                            <div class="platforms">
+                                <a href="https://github.com/Dave-mash/binary-rain/tree/master" target="_blank">GitHub</a>
+                                <a href="https://dave-mash.github.io/binary-rain/" target="_blank">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_description">
+                        <h2 style="color:rgb(73, 160, 247);text-decoration:underline;">Binary Rain</h2>
+                        <p>Binary Rain is an inspiration of the Matrix Rain by Emily Xie, a creative coder based in the USA. The work was done in P5, a Javascript front-end framework for building quick sketches/visuals. The main objective of the project was to visualize binary symbols trickling from top to bottom. Through this project, I found my love for front-end visualizations and I'm definitely going to continue exploring this art.</p>
+                    </div>
+                </div>
+                <div class="slider_container hidden">
+                    <div class="project_spanshot">
+                        <div class="img_slider">
+                            <div class="next_prev">
+                                <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
+                                <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                            </div>
+                            <video src="../media/flask.mp4" autoplay='true' loop='true'></video>
+                            <div class="platforms">
+                                <a href="https://github.com/Dave-mash/binary-rain/tree/master" target="_blank">GitHub</a>
+                                <a href="https://dave-mash.github.io/binary-rain/" target="_blank">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_description">
+                        <h2 style="color:rgb(73, 160, 247);text-decoration:underline;">Flask Blog</h2>
+                        <p>Flask Blog is a simple blogging application originally built in Flask, vanilla Javascript and plain css. This work is inspired by Corey Schafer's(a professional coder and instructor) Blogging app in Flask youtube video. The main goal for this project was to cover all basic CRUD operations. I'm looking to re-style the app in Boostrap</p>
+                    </div>
+                    <div class="next_prev">
+                        <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
+                        <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                    </div>
+                </div>
+                <div class="slider_container hidden">
+                    <div class="project_spanshot">
+                        <div class="img_slider">
+                            <div class="next_prev">
+                                <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
+                                <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                            </div>
+                            <video src="../media/site.mp4" autoplay='true' loop='true'></video>
+                            <div class="platforms">
+                                <a href="https://github.com/Dave-mash/binary-rain/tree/master" target="_blank">GitHub</a>
+                                <a href="https://dave-mash.github.io/binary-rain/" target="_blank">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project_description">
+                        <h2 style="color:rgb(73, 160, 247);text-decoration:underline;">My site</h2>
+                        <p>My site is actually this very site you're scrolling through. I drew design inspirations from a number of very nice sites online. The site is meant to feature all my skills as a Web Developer. The work is done in plain css and Javascript.</p>
+                    </div>
+                    <div class="next_prev">
+                        <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
+                        <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                    </div>
+                    <div class="next_prev">
+                        <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
+                        <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                    </div>
+                </div>
+            </div>
+            <img id='right_arrow' src="../media/right-arrow.png" onclick="plusSlides(1)" alt="right arrow">
+        </div>
+
+            <div class="dot_div">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+    </div>
+    <div class="contact_container full_page">
+        <!-- contact information -->
+        <h1 style="opacity:.7;margin:0">CONTACT</h1>
+        
+        <div class="contact_wrapper">
+            <form id="contact_form" name="contact_form">
+                <input name="name" type="text" placeholder="name" required><br>
+                <input name="email" type="email" placeholder="email" required><br>
+                <textarea name="textarea" placeholder="message" required></textarea><br>
+                <button>Submit</button>
+            </form>
+        </div>
+        <footer>
+            <i style="opacity:.8">David Macharia copyright &copy; 2019</i>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
