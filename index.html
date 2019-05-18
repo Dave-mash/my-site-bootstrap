@@ -22,13 +22,13 @@
         </div>
         <div class="overlay_div h-100"></div>
 
-        <div class="home_container_wrapped" data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom">
+        <div class="home_container_wrapped" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <h1 id="main_title">Hello!</h1>
             <p id="intro_paragraph">Welcome to my site. My name is David Macharia Mwangi,<br><br> I am a full stack
-            <span style="color: rgb(73, 160, 247);">Web Developer</span></p>
+                <span style="color: rgb(73, 160, 247);">Web Developer</span></p>
             <i>scroll down</i>
-            <a id="bouncing-arrow" href="#about"><i class="fas fa-angle-double-down bounce" style="font-size:30px;"></i></a>
+            <a id="bouncing-arrow" href="#about"><i class="fas fa-angle-double-down bounce"
+                    style="font-size:30px;"></i></a>
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -62,53 +62,39 @@
         </div>
         <div class="about_container_wrapped">
             <img src="../media/dave.jpg" alt="selfie" id="selfie">
-            <p id="about_paragraph">I'm a self-taught, full-stack Web Developer based in Nairobi, Kenya. Knowledge acquired through immense research and a bit of mentorship. Self motivation and dedication have been my biggest strength throught my career. I'm currently working with Python and front-end Javascript. I mostly work by myself , however, I'm more than capable of teamwork and collaborating remotely. Contact me through email or slack for business or more information</p>
+            <p id="about_paragraph">I'm a self-taught, full-stack Web Developer based in Nairobi, Kenya. Knowledge
+                acquired through immense research and a bit of mentorship. Self motivation and dedication have been my
+                biggest strength throught my career. I'm currently working with Python and front-end Javascript. I
+                mostly work by myself , however, I'm more than capable of teamwork and collaborating remotely. Contact
+                me through email or slack for business or more information</p>
         </div>
         <div class="skills_wrapped">
-            <div class="html bar">
-                <div class="bar_text">HTML</div>
-                <div class="bar_level" style="width:70%;background:rgb(26, 122, 122);"></div>
-                <i style="width:10%;opacity:.7;">90%</i>
+            <div class="html progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">HTML 75%</div>
             </div>
-            <div class="css bar">
-                <div class="bar_text">CSS</div>
-                <div class="bar_level" style="width:70%;background:rgb(26, 122, 122);"></div>
-                <i style="width:10%;opacity:.7;">90%</i>
+            <div class="css progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">CSS 70%</div>
             </div>
-            <div class="responsive bar">
-                <div class="bar_text">Responsive Design</div>
-                <div class="bar_level" style="width:70%;background:rgb(26, 122, 122);"></div>
-                <i style="width:10%;opacity:.7;">90%</i>
+            <div class="responsive-design progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Responsive-designs 75%</div>
             </div>
-            <div class="javascript bar">
-                <div class="bar_text">Javascript</div>
-                <div class="bar_level" style="width:65%;background:rgb(26, 122, 122);"></div>
-                <i style="width:15%;opacity:.7;">80%</i>
+            <div class="Javascript progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Javascript 75%</div>
             </div>
-            <div class="react bar">
-                <div class="bar_text">ReactJS</div>
-                <div class="bar_level" style="width:65%;background:rgb(26, 122, 122);"></div>
-                <i style="width:15%;opacity:.7;">80%</i>
+            <div class="react progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">ReactJS 65%</div>
             </div>
-            <div class="python bar">
-                <div class="bar_text">Python</div>
-                <div class="bar_level" style="width:65%;background:rgb(26, 122, 122);"></div>
-                <i style="width:15%;opacity:.7;">80%</i>
+            <div class="python progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Python 70%</div>
             </div>
-            <div class="flask bar">
-                <div class="bar_text">Flask</div>
-                <div class="bar_level" style="width:63%;background:rgb(26, 122, 122);"></div>
-                <i style="width:18%;opacity:.7;">75%</i>
+            <div class="flask progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Flask 70%</div>
             </div>
-            <div class="version_control bar">
-                <div class="bar_text">Postgresql</div>
-                <div class="bar_level" style="width:65%;background:rgb(26, 122, 122);"></div>
-                <i style="width:15%;opacity:.7;">80%</i>
+            <div class="version_control progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">Postgresql 65%</div>
             </div>
-            <div class="postgres bar">
-                <div class="bar_text">Version control</div>
-                <div class="bar_level" style="width:70%;background:rgb(26, 122, 122);"></div>
-                <i style="width:10%;opacity:.7;">90%</i>
+            <div class="postgres progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Version-control 90%</div>
             </div>
         </div>
     </div>
@@ -124,87 +110,99 @@
                     <div class="project_spanshot">
                         <div class="img_slider">
                             <div class="next_prev">
-                                <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
-                                <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                                <button id="left_arrow" onclick="plusSlides(-1)">Previous</button>
+                                <button id="right_arrow" onclick="plusSlides(1)">Next</button>
                             </div>
                             <video src="../media/binary.mp4" autoplay='true' loop='true'></video>
                             <div class="platforms">
-                                <a href="https://github.com/Dave-mash/binary-rain/tree/master" target="_blank">GitHub</a>
+                                <a href="https://github.com/Dave-mash/binary-rain/tree/master"
+                                    target="_blank">GitHub</a>
                                 <a href="https://dave-mash.github.io/binary-rain/" target="_blank">Live</a>
                             </div>
                         </div>
                     </div>
                     <div class="project_description">
                         <h2 style="color:rgb(73, 160, 247);text-decoration:underline;">Binary Rain</h2>
-                        <p>Binary Rain is an inspiration of the Matrix Rain by Emily Xie, a creative coder based in the USA. The work was done in P5, a Javascript front-end framework for building quick sketches/visuals. The main objective of the project was to visualize binary symbols trickling from top to bottom. Through this project, I found my love for front-end visualizations and I'm definitely going to continue exploring this art.</p>
+                        <p>Binary Rain is an inspiration of the Matrix Rain by Emily Xie, a creative coder based in the
+                            USA. The work was done in P5, a Javascript front-end framework for building quick
+                            sketches/visuals. The main objective of the project was to visualize binary symbols
+                            trickling from top to bottom. Through this project, I found my love for front-end
+                            visualizations and I'm definitely going to continue exploring this art.</p>
                     </div>
                 </div>
                 <div class="slider_container hidden">
                     <div class="project_spanshot">
                         <div class="img_slider">
                             <div class="next_prev">
-                                <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
-                                <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                                <button id="left_arrow" onclick="plusSlides(-1)">Previous</button>
+                                <button id="right_arrow" onclick="plusSlides(1)">Next</button>
                             </div>
                             <video src="../media/flask.mp4" autoplay='true' loop='true'></video>
                             <div class="platforms">
-                                <a href="https://github.com/Dave-mash/binary-rain/tree/master" target="_blank">GitHub</a>
+                                <a href="https://github.com/Dave-mash/binary-rain/tree/master"
+                                    target="_blank">GitHub</a>
                                 <a href="https://dave-mash.github.io/binary-rain/" target="_blank">Live</a>
                             </div>
                         </div>
                     </div>
                     <div class="project_description">
                         <h2 style="color:rgb(73, 160, 247);text-decoration:underline;">Flask Blog</h2>
-                        <p>Flask Blog is a simple blogging application originally built in Flask, vanilla Javascript and plain css. This work is inspired by Corey Schafer's(a professional coder and instructor) Blogging app in Flask youtube video. The main goal for this project was to cover all basic CRUD operations. I'm looking to re-style the app in Boostrap</p>
+                        <p>Flask Blog is a simple blogging application originally built in Flask, vanilla Javascript and
+                            plain css. This work is inspired by Corey Schafer's(a professional coder and instructor)
+                            Blogging app in Flask youtube video. The main goal for this project was to cover all basic
+                            CRUD operations. I'm looking to re-style the app in Boostrap</p>
                     </div>
                     <div class="next_prev">
-                        <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
-                        <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                        <button id="left_arrow" onclick="plusSlides(-1)">Previous</button>
+                        <button id="right_arrow" onclick="plusSlides(1)">Next</button>
                     </div>
                 </div>
                 <div class="slider_container hidden">
                     <div class="project_spanshot">
                         <div class="img_slider">
                             <div class="next_prev">
-                                <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
-                                <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                                <button id="left_arrow" onclick="plusSlides(-1)">Previous</button>
+                                <button id="right_arrow" onclick="plusSlides(1)">Next</button>
                             </div>
                             <video src="../media/site.mp4" autoplay='true' loop='true'></video>
                             <div class="platforms">
-                                <a href="https://github.com/Dave-mash/binary-rain/tree/master" target="_blank">GitHub</a>
+                                <a href="https://github.com/Dave-mash/binary-rain/tree/master"
+                                    target="_blank">GitHub</a>
                                 <a href="https://dave-mash.github.io/binary-rain/" target="_blank">Live</a>
                             </div>
                         </div>
                     </div>
                     <div class="project_description">
                         <h2 style="color:rgb(73, 160, 247);text-decoration:underline;">My site</h2>
-                        <p>My site is actually this very site you're scrolling through. I drew design inspirations from a number of very nice sites online. The site is meant to feature all my skills as a Web Developer. The work is done in plain css and Javascript.</p>
+                        <p>My site is actually this very site you're scrolling through. I drew design inspirations from
+                            a number of very nice sites online. The site is meant to feature all my skills as a Web
+                            Developer. The work is done in plain css and Javascript.</p>
                     </div>
                     <div class="next_prev">
-                        <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
-                        <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                        <button id="left_arrow" onclick="plusSlides(-1)">Previous</button>
+                        <button id="right_arrow" onclick="plusSlides(1)">Next</button>
                     </div>
                     <div class="next_prev">
-                        <button id="left_arrow" onclick="plusSlides(-1)" >Previous</button>
-                        <button id="right_arrow" onclick="plusSlides(1)" >Next</button>
+                        <button id="left_arrow" onclick="plusSlides(-1)">Previous</button>
+                        <button id="right_arrow" onclick="plusSlides(1)">Next</button>
                     </div>
                 </div>
             </div>
             <img id='right_arrow' src="../media/right-arrow.png" onclick="plusSlides(1)" alt="right arrow">
         </div>
 
-            <div class="dot_div">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>
+        <div class="dot_div">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
     </div>
     <div class="contact_container full-page" id="contact">
         <!-- contact information -->
         <div class="center-block">
             <h1>CONTACT</h1>
         </div>
-        
+
         <div class="contact_wrapper">
             <form id="contact_form" name="contact_form">
                 <input name="name" type="text" placeholder="name" required><br>

@@ -115,6 +115,17 @@ nav {
     margin: 20px auto;
 }
 
-.center-block {
-    /* margin-top: 20vh; */
+#selfie {
+    width: 50px;
+    height: 50px;
+}
+
+.skills_wrapped {
+    width: 50vw;
+}
+
+.progress {
+    height: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
