@@ -14,7 +14,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div class="home_container full_page">
+    <div class="home_container full_page" id="home">
         <!-- introduction -->
 
         <div class="video_background h-100">
@@ -27,6 +27,7 @@
             <h1 id="main_title">Hello!</h1>
             <p id="intro_paragraph">Welcome to my site. My name is David Macharia Mwangi,<br><br> I am a full stack
             <span style="color: rgb(73, 160, 247);">Web Developer</span></p>
+            <i>scroll down</i>
             <a id="bouncing-arrow" href="#about"><i class="fas fa-angle-double-down bounce" style="font-size:30px;"></i></a>
         </div>
     </div>
@@ -39,25 +40,25 @@
         <div class="spacing"></div>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="about" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="about_container full_page">
+    <div class="about_container full-page" id='about'>
         <!-- about section -->
         <div class="center-block">
-            <h1 id='about_page'>ABOUT ME</h1>
+            <h1>ABOUT ME</h1>
         </div>
         <div class="about_container_wrapped">
             <img src="../media/dave.jpg" alt="selfie" id="selfie">
@@ -111,8 +112,10 @@
             </div>
         </div>
     </div>
-    <div class="projects_container full_page">
-        <h1 id="project_title">PROJECTS</h1>
+    <div class="projects_container full-page" id="projects">
+        <div class="center-block">
+            <h1>PROJECTS</h1>
+        </div>
         <!-- portfolio projects -->
         <div class="project_div">
             <img id='left_arrow' src="../media/left-arrow.png" onclick="plusSlides(-1)" alt="left arrow">
@@ -196,9 +199,11 @@
                 <span class="dot" onclick="currentSlide(3)"></span> 
             </div>
     </div>
-    <div class="contact_container full_page">
+    <div class="contact_container full-page" id="contact">
         <!-- contact information -->
-        <h1 style="opacity:.7;margin:0">CONTACT</h1>
+        <div class="center-block">
+            <h1>CONTACT</h1>
+        </div>
         
         <div class="contact_wrapper">
             <form id="contact_form" name="contact_form">

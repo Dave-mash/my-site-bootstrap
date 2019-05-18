@@ -8,6 +8,11 @@
     height: 100vh;
 }
 
+.full-page {
+    height: 100vh;
+    padding-top: 8vh;
+}
+
 .home_container {
     display: flex;
     flex-direction: column;
@@ -75,7 +80,7 @@ nav {
 }
 
 #bouncing-arrow {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 @keyframes bounce {
@@ -108,4 +113,8 @@ nav {
     opacity: .7;
     width: 15%;
     margin: 20px auto;
+}
+
+.center-block {
+    /* margin-top: 20vh; */
 }
