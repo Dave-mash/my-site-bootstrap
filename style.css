@@ -122,10 +122,32 @@ nav {
 
 .skills_wrapped {
     width: 50vw;
+    /* background: blue; */
 }
 
 .progress {
-    height: 25px;
+    height: 30px;
     margin-bottom: 10px;
     font-weight: bold;
+    font-size: 15px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+    height: 60vh;
+}
+
+.about_container_wrapped {
+    width: 45%;
+    /* background: red; */
+    text-align: center;
+}
+
+#selfie {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
