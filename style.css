@@ -151,3 +151,22 @@ nav {
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
+form {
+    /* background: red; */
+    margin: 0 auto;
+    width: 50%;
+}
+
+.contact_container {
+    height: 90vh;
+    padding-top: 8vh;
+}
+
+footer {
+    height: 10vh;
+    background: #343A40;
+    color: #EAEAEB;
+    text-align: center;
+    padding-top: 10px;
+}

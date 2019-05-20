@@ -123,8 +123,8 @@
                     <div class="project_spanshot">
                         <div class="img_slider">
                             <div class="next_prev">
-                                <button id="left_arrow" onclick="plusSlides(-1)">Previous</button>
-                                <button id="right_arrow" onclick="plusSlides(1)">Next</button>
+                                <!-- <button id="left_arrow" onclick="plusSlides(-1)">Previous</button>
+                                <button id="right_arrow" onclick="plusSlides(1)">Next</button> -->
                             </div>
                             <!-- <video src="../media/binary.mp4" autoplay='true' loop='true'></video> -->
                             <!-- <div class="platforms">
@@ -203,132 +203,73 @@
             </div>
             <img id='right_arrow' src="../media/right-arrow.png" onclick="plusSlides(1)" alt="right arrow"> -->
                     <!-- </div> -->
-
+                    <!-- 
                     <div class="dot_div">
                         <span class="dot" onclick="currentSlide(1)"></span>
                         <span class="dot" onclick="currentSlide(2)"></span>
                         <span class="dot" onclick="currentSlide(3)"></span>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="contact_container full-page" id="contact">
-                    <!-- contact information -->
-                    <!-- <div class="center-block"> -->
-                    <h1>CONTACT</h1>
-                </div>
-
-                <div class="contact_wrapper">
-                    <form id="contact-form" method="post" action="contact.php" role="form">
-                        <div class="messages"></div>
-                        <div class="controls">
-
-                            <div class=""> <!--row-->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_name">Firstname *</label>
-                                        <input id="form_name" type="text" name="name" class="form-control"
-                                            placeholder="Please enter your firstname *" required="required"
-                                            data-error="Firstname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_lastname">Lastname *</label>
-                                        <input id="form_lastname" type="text" name="surname" class="form-control"
-                                            placeholder="Please enter your lastname *" required="required"
-                                            data-error="Lastname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <input name="name" type="text" placeholder="name" required><br>
-                            <input name="email" type="email" placeholder="email" required><br>
-                            <textarea name="textarea" placeholder="message" required></textarea><br>
-                            <button>Submit</button>
-                    </form>
-                    <!-- <form id="contact-form" method="post" action="contact.php" role="form">
-
-                <div class="messages"></div>
-            
-                <div class="controls">
-            
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_name">Firstname *</label>
-                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_lastname">Lastname *</label>
-                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_email">Email *</label>
-                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_need">Please specify your need *</label>
-                                <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                                    <option value=""></option>
-                                    <option value="Request quotation">Request quotation</option>
-                                    <option value="Request order status">Request order status</option>
-                                    <option value="Request copy of an invoice">Request copy of an invoice</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="form_message">Message *</label>
-                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <input type="submit" class="btn btn-success btn-send" value="Send message">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="text-muted">
-                                <strong>*</strong> These fields are required. Contact form template by
-                                <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
-                        </div>
-                    </div>
-                </div>
-            
-            </form> -->
-                </div>
-                <footer>
-                    <i style="opacity:.8">copyright &copy; 2019 David Macharia</i>
-                </footer>
             </div>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous">
-            </script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                crossorigin="anonymous">
-            </script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                crossorigin="anonymous">
-            </script>
+        </div>
+    </div>
+    <div class="contact_container" id="contact">
+        <div class="center-block">
+            <h1>CONTACT</h1>
+
+            <form id="contact-form" method="post" action="contact.php" role="form">
+
+                <!-- <div class="messages"></div> -->
+
+                <div class="controls">
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_name">Name *</label>
+                            <input id="form_name" type="text" name="name" class="form-control"
+                                placeholder="Enter your name *" required="required"
+                                data-error="Firstname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_email">Email *</label>
+                            <input id="form_email" type="email" name="email" class="form-control"
+                                placeholder="Enter your email *" required="required"
+                                data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_message">Message *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *"
+                            rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-11">
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                </div>
+        </div>
+
+        </form>
+
+    </div>
+    <footer>
+        <i style="opacity:.8">copyright &copy; 2019 David Macharia</i>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
