@@ -153,7 +153,6 @@ nav {
 }
 
 form {
-    /* background: red; */
     margin: 0 auto;
     width: 50%;
 }
@@ -169,4 +168,14 @@ footer {
     color: #EAEAEB;
     text-align: center;
     padding-top: 10px;
+}
+
+.projects_container {
+    /* margin */
+}
+
+.project_div {
+    /* background: red; */
+    width: 80%;
+    margin: 0 auto;
 }
