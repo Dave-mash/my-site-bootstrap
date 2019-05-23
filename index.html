@@ -32,7 +32,7 @@
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand" href="#">David M. Mwangi</a>
+        <a class="navbar-brand" href="#home">David M. Mwangi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -111,7 +111,7 @@
             </div>
         </div>
     </div>
-    <div class="projects_container full-page" id="projects">
+    <div class="projects_container" id="projects">
         <div class="center-block">
             <h1>PROJECTS</h1>
         </div>
@@ -166,43 +166,42 @@
     <div class="contact_container" id="contact">
         <div class="center-block">
             <h1>CONTACT</h1>
+        </div>
 
-            <form id="contact-form" method="post" action="contact.php" role="form">
+        <form id="contact-form" method="post" action="contact.php" role="form">
 
-                <!-- <div class="messages"></div> -->
+            <!-- <div class="messages"></div> -->
 
-                <div class="controls">
+            <div class="controls">
 
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="form_name">Name *</label>
-                            <input id="form_name" type="text" name="name" class="form-control"
-                                placeholder="Enter your name *" required="required" data-error="Firstname is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="form_email">Email *</label>
-                            <input id="form_email" type="email" name="email" class="form-control"
-                                placeholder="Enter your email *" required="required"
-                                data-error="Valid email is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_name">Name *</label>
+                        <input id="form_name" type="text" name="name" class="form-control"
+                            placeholder="Enter your name *" required="required" data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label for="form_message">Message *</label>
-                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *"
-                            rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control"
+                            placeholder="Enter your email *" required="required" data-error="Valid email is required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
-                <div class="col-md-11">
-                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *"
+                        rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
                 </div>
-        </div>
+            </div>
+            <div class="col-md-11">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
 
         </form>
 
@@ -233,6 +232,13 @@
                 }
             });
         });
+
+        if (document.querySelector('.navbar-nav')) {
+            document.querySelector('.spacing').style.display = 'block'
+        } else {
+            document.querySelector('.spacing').style.display = 'none';
+        }
+
     </script>
 </body>
 
