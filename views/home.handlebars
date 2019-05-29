@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../public/css/style.css">
     <title>David Macharia</title>
 </head>
 
@@ -18,13 +19,13 @@
         <!-- introduction -->
 
         <div class="video_background h-100">
-            <video src="../media/binary.mp4" autoplay='true' loop='true'></video>
+            <video src="./videos/binary.mp4" autoplay='true' loop='true'></video>
         </div>
         <div class="overlay_div h-100"></div>
 
         <div class="home_container_wrapped" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-            <h1 id="main_title">Hello!</h1>
-            <p id="intro_paragraph">Welcome to my site. My name is David Macharia Mwangi,<br><br> I am a full stack
+            <h1 id="main_title" class="animated slideInLeft">Hello!</h1>
+            <p id="intro_paragraph" class=" animated slideInRight">Welcome to my site. My name is David Macharia Mwangi,<br><br> I am a full stack
                 <span style="color: rgb(73, 160, 247);">Web Developer</span></p>
             <i>scroll down</i>
             <a id="bouncing-arrow" href="#about"><i class="fas fa-angle-double-down bounce"
@@ -62,7 +63,7 @@
         </div>
         <div class="about-section">
             <div class="about_container_wrapped">
-                <img src="../media/dave.jpg" alt="selfie" id="selfie">
+                <img src="./images/dave.jpg" alt="selfie" id="selfie">
                 <p id="about_paragraph">I'm a self-taught, full-stack Web Developer based in Nairobi, Kenya. Knowledge
                     acquired through immense research and a bit of mentorship. Self motivation and dedication have been
                     my
@@ -119,7 +120,7 @@
         <div class="project_div">
             <div class="card-deck col-xs col-sm">
                 <div class="card">
-                    <img src="./media/blog.png" class="card-img-top" alt="application screenshot">
+                    <img src="/images/blog.png" class="card-img-to"images="application screenshot">
                     <div class="card-body">
                         <h5 class="card-title">Flask Blog</h5>
                         <p class="card-text">Flask Blog is a simple blogging application originally built in Flask,
@@ -133,7 +134,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./media/rain.png" class="card-img-top" alt="application screenshot">
+                    <img src="/images/rain.png" class="card-img-to"images="application screenshot">
                     <div class="card-body">
                         <h5 class="card-title">Binary rain</h5>
                         <p class="card-text">Binary Rain is an inspiration of the Matrix Rain by Emily Xie, a creative
@@ -148,7 +149,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./media/mysite.png" class="card-img-top" alt="application screenshot">
+                    <img src="/images/mysite.png" class="card-img-to"images="application screenshot">
                     <div class="card-body">
                         <h5 class="card-title">My site</h5>
                         <p class="card-text">My site is actually this very site you're scrolling through. I drew design
@@ -168,7 +169,7 @@
             <h1>CONTACT</h1>
         </div>
 
-        <form id="contact-form" method="post" action="contact.php" role="form">
+        <form id="contact-form" method="post" action="send" role="form">
 
             <!-- <div class="messages"></div> -->
 
@@ -238,7 +239,6 @@
         } else {
             document.querySelector('.spacing').style.display = 'none';
         }
-
     </script>
 </body>
 
