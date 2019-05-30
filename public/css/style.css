@@ -133,6 +133,7 @@ nav {
 .projects_container {
     height: 100vh;
     padding-top: 8vh;
+    /* background: red; */
 }
 
 .progress {
@@ -165,11 +166,13 @@ nav {
 form {
     margin: 0 auto;
     width: 50%;
+    height: auto;
 }
 
 .contact_container {
-    height: 90vh;
-    padding-top: 8vh;
+    height: 100vh;
+    margin-top: 8%;
+    padding-top: 4%;
 }
 
 footer {

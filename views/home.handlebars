@@ -19,7 +19,7 @@
         <!-- introduction -->
 
         <div class="video_background h-100">
-            <video src="./videos/binary.mp4" autoplay='true' loop='true'></video>
+            <video src="../public/videos/binary.mp4" autoplay='true' loop='true'></video>
         </div>
         <div class="overlay_div h-100"></div>
 
@@ -63,7 +63,7 @@
         </div>
         <div class="about-section">
             <div class="about_container_wrapped">
-                <img src="./images/dave.jpg" alt="selfie" id="selfie">
+                <img src="../public/images/dave.jpg" alt="selfie" id="selfie">
                 <p id="about_paragraph">I'm a self-taught, full-stack Web Developer based in Nairobi, Kenya. Knowledge
                     acquired through immense research and a bit of mentorship. Self motivation and dedication have been
                     my
@@ -120,7 +120,7 @@
         <div class="project_div">
             <div class="card-deck col-xs col-sm">
                 <div class="card">
-                    <img src="/images/blog.png" class="card-img-to"images="application screenshot">
+                    <img class="card-img-top" src="../public/images/blog.png" alt="application screenshot">
                     <div class="card-body">
                         <h5 class="card-title">Flask Blog</h5>
                         <p class="card-text">Flask Blog is a simple blogging application originally built in Flask,
@@ -134,7 +134,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="/images/rain.png" class="card-img-to"images="application screenshot">
+                    <img class="card-img-top" src="../public/images/rain.png" alt="application screenshot">
                     <div class="card-body">
                         <h5 class="card-title">Binary rain</h5>
                         <p class="card-text">Binary Rain is an inspiration of the Matrix Rain by Emily Xie, a creative
@@ -149,7 +149,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="/images/mysite.png" class="card-img-to"images="application screenshot">
+                    <img class="card-img-top" src="../public/images/mysite.png" alt="application screenshot">
                     <div class="card-body">
                         <h5 class="card-title">My site</h5>
                         <p class="card-text">My site is actually this very site you're scrolling through. I drew design
@@ -168,8 +168,8 @@
         <div class="center-block">
             <h1>CONTACT</h1>
         </div>
-
-        <form id="contact-form" method="post" action="send" role="form">
+        {{msg}}
+        <form id="contact-form" method="POST" action="send" role="form">
 
             <!-- <div class="messages"></div> -->
 
