@@ -14,6 +14,8 @@ $(document).ready(
 );
 
 
+
+
 if (document.querySelector('.navbar-nav')) {
     document.querySelector('.spacing').style.display = 'block'
 } else {

@@ -143,6 +143,12 @@ nav {
     font-size: 15px;
 }
 
+.progress-bar {
+    -webkit-transition: width 3s ease;
+    transition: width 3s ease;
+    width: 0%;
+}
+
 .about-section {
     display: flex;
     justify-content: space-around;
